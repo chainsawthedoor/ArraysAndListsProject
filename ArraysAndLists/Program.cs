@@ -10,7 +10,7 @@ namespace ArraysAndLists
             //TODO:
 
             // Create an int array and populate it with numbers 1-10
-            int[] numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+            var numbers = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             
             
             
@@ -64,7 +64,7 @@ namespace ArraysAndLists
              * display the numbers in your "odds" list
              */
             
-            for(int i = 0; i <= odds.Count; i++)
+            for(int i = 0; i <= odds.Count - 1; i++)
             {
                 Console.WriteLine(odds[i]);
             }
